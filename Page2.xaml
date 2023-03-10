@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_Issue13810.Page2"
+             NavigationPage.HasNavigationBar="False" BackgroundColor="White">
+    <Grid RowDefinitions="44,44,44,44,44,44,*" RowSpacing="0">
+        <Button Grid.Row="0" Text="Back" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" />
+        <Button Grid.Row="1" Text="Back" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" />
+        <Button Grid.Row="2" Text="Back" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" />
+        <Button Grid.Row="3" Text="Back" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" />
+        <Button Grid.Row="4" Text="Back" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" />
+        <Button Grid.Row="5" Text="Back" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" />
+    </Grid>
+</ContentPage>
